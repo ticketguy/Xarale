@@ -1,0 +1,1 @@
+web: gunicorn Xarale.wsgi --log-file -

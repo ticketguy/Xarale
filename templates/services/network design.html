@@ -1,0 +1,87 @@
+{% extends 'base.html'%}
+
+{% load static %}
+
+
+
+
+
+{% block content %}
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        <h1>Network <span>Designs</span></h1>
+        <br>
+        <p>Fiber optic network design refers to the specialized processes leading to a successful installation and operation of
+            a
+            fiber optic network.
+        </p>
+        <p>   We provide fiber optic designs for connections to the premises, home and connections to cell towers through server rooms and patch panel. 
+            Our team of network designers are always ready to deliver designs for projects using professional softwares. We carry out surveys, analyse then use the analysed data to produce designs in both HLD (High Level Drawing) and LLD (Low level Drawing) for FTTH, FTTP and FTTT.
+        </p>
+
+        <div class="d-flex">
+        <a href="{% url 'contact' %}" class="btn-get-started scrollto">Plan Your Project</a>
+    </div>
+
+    </div>
+
+</section><!-- End Hero -->
+    
+<section id="about" class="about section-bg">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            
+            <h3>Design<span>Tools</span></h3>
+            <p>
+            Although ai automation has become a very popular approach to fiber optics design, our team also uses the traditional
+            hands on design method carefully capturing the fiber path thereby revealling every details from the survey data. We make
+            use of the Google earth, Microsoft Visio and other professional softwares to carry out our designs.</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                <img src="{% static 'assets/img/design/design 1.jpg' %}" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+                data-aos-delay="100">
+                <h3>Tested Creative and Quality Designs</h3>
+                <p class="fst-italic">
+                   We've worked for customers like ATC Nigeria, MainOne Cable Company, Phase 3 etc, helping them plan, design and carry out fiber optic services.
+                </p>
+                <ul>
+                    <li>
+                        <i class="bx "></i>
+                        <div>
+                            <h5>A Representation of LLD Design</h5>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="bx "></i>
+                        <div>
+                            <h5>Using Survey Data Analysis for Design</h5>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+
+        <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="{% static 'assets/img/design/design 2.jpg' %}" class="img-fluid" alt="">
+        </div>
+        <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+            <img src="{% static 'assets/img/design/design 3.jpg' %}" class="img-fluid" alt="">
+        </div>
+
+    </div>
+
+</div>
+
+</section><!-- End About Section -->
+
+
+
+
+{% endblock %}s

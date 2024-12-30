@@ -1,0 +1,78 @@
+{% extends 'base.html'%}
+{% load static %}
+
+
+{% block content %}
+
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>Services</h2>
+            <h3>What We <span>Offer</span></h3>
+            <p>The services we offer ranges from outside plant to inside plant management, These services include:
+                Aerial Cable and Conduit Placement,
+                Maintenance of Outside Plant,
+                Cable Pulling,
+                Manholes Placement,
+                FTTT/FTTH Survey and Design,
+                Directional Boring and Trenching Contracting,
+                Fiber Optic Splicing, Testing, and Terminations.</p>
+        </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                            <h4><a href="{% url 'Network Management' %}">Network Management</a></h4>
+                            <p>Having a good management for Maintenance of the OSP infastructures and project execution is necessary in other to achieve your goals</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-file"></i></div>
+                            <h4><a href="{% url 'Network Design' %}">Network Design</a></h4>
+                            <p>Dive in deep into Network Design with our design team which include, FTTH, FTTX, HLD, LLD, KMZs etc.</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-tachometer"></i></div>
+                            <h4><a href="{% url 'Testing and Terminations' %}">Testing and Terminations</a></h4>
+                            <p>With our field engineer expert, we carry out testing and terminations for optic fibers.</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-world"></i></div>
+                            <h4><a href="{% url 'Fiber Optics Services' %}">Fiber Optics Services</a></h4>
+                            <p>Get into the fiber optics world where we have a range of fiber services we carry out.</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-slideshow"></i></div>
+                            <h4><a href="{% url 'OSP Insight' %}">OSP Insight</a></h4>
+                            <p>Get insights in the OSP activities going on.</p>
+                        </div>
+                    </div>
+                
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon-box">
+                            <div class="icon"><i class="bx bx-arch"></i></div>
+                            <h4><a href="{% url 'Manhole Placement' %}">ManHole Placement</a></h4>
+                            <p>Protection of fiber is a very important to us, we provide Manhole Construction services in other to protect our fibre slacks, joints etc.</p>
+                        </div>
+                    </div>
+                
+                </div>
+
+    </div>
+</section><!-- End Services Section -->
+
+{% endblock %}

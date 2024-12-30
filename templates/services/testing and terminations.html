@@ -1,0 +1,88 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<!-- ======= Hero Section ======= -->
+<section id="hero" class="d-flex align-items-center">
+    <div class="container" data-aos="zoom-out" data-aos-delay="100">
+        <h1>Testing <span>& Termination</span></h1>
+        <p>Setting the gold standard in network diagnostics and precision connections.</p>
+    </div>
+</section><!-- End Hero -->
+
+<!-- ======= About Section ======= -->
+<section id="about" class="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6">
+                <h2>Ensuring Network Integrity</h2>
+                <p>
+                    Our testing and termination services are designed to verify and enhance the performance of your network infrastructure. Through advanced diagnostics and precision craftsmanship, we ensure that every connection meets the highest standards of quality and reliability.
+                </p>
+                <h3>Key Benefits</h3>
+                <ul>
+                    <li><strong>Enhanced Performance:</strong> Minimizing signal loss and optimizing bandwidth utilization.</li>
+                    <li><strong>Proactive Issue Resolution:</strong> Detecting and resolving potential problems before they impact operations.</li>
+                    <li><strong>Standards Compliance:</strong> Ensuring adherence to global telecommunications and IT standards.</li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <img src="/static/images/testing-termination-professional.jpg" alt="Testing & Termination" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section><!-- End About Section -->
+
+<!-- ======= Services Section ======= -->
+<section id="services" class="services">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                <h2>Our Expertise</h2>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h4>Fiber Optic Testing</h4>
+                        <p>
+                            Utilizing state-of-the-art tools like OTDR (Optical Time Domain Reflectometer) and power meters, we provide comprehensive diagnostics to ensure optimal signal strength and fault identification.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Professional Termination</h4>
+                        <p>
+                            Our team delivers high-precision terminations for fiber optic and copper cables, ensuring robust connections that minimize interference and maximize performance.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Documentation & Certification</h4>
+                        <p>
+                            We provide detailed test reports and certifications to validate the integrity and compliance of your network infrastructure.
+                        </p>
+                    </div>
+                    <div class="col-md-6">
+                        <h4>Continuous Support</h4>
+                        <p>
+                            With dedicated support services, we ensure your network remains at peak performance, even after installation.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section><!-- End Services Section -->
+
+<!-- ======= Call to Action Section ======= -->
+<section id="cta" class="cta">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h3>Experience Unmatched Quality</h3>
+                <p>
+                    Partner with Xarale International for testing and termination services that redefine reliability and efficiency. Let us optimize your network for unparalleled performance.
+                </p>
+                <a href="{% url "contact" %}" class="btn btn-primary">Get in Touch</a>
+            </div>
+        </div>
+    </div>
+</section><!-- End Call to Action Section -->
+
+{% endblock %}

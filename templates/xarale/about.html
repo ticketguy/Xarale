@@ -1,0 +1,56 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content %}
+
+<!-- ======= About Section ======= -->
+<section id="about" class="about section-bg">
+    <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+            <h2>About</h2>
+            <h3>Find Out More <span>About Us</span></h3>
+            <p>
+            Xarale Telecoms provides reliable consulting, Design, installation, and maintenance services for its fiber
+            optic network to customers. We are dedicated to helping our customers get involve with the fast growing innovations in the telecommunication industry</p>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
+                <img src="{% static 'assets/img/about.jpg' %}" class="img-fluid" alt="">
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up"
+                data-aos-delay="100">
+                <h3>Critical Thinking for Problem Solving </h3>
+                <p class="fst-italic">
+                    We work with a team of experienced supervisors who with their critical thinking gives directives and solve problems encountered within and the ISP.
+                </p>
+                <ul>
+                    <li>
+                        <i class="bx "></i>
+                        <div>
+                            <h5>Safe Working Environment </h5>
+                            <p>Our company is highly dedicated in working on a safe environment. We make sure that our workers are in good health condition and also follow the HSE Rules in other to prevent accidents which may affect our work efficiency.</p>
+                        </div>
+                    </li>
+                    <li>
+                        <i class="bx "></i>
+                        <div>
+                            <h5>Survey Data Analysis and Presentation</h5>
+                            <p>Our supervisors are also experiencedin gathering survey data which is then analysed and interpreted by our design team and presented in HLD, LLD, spread sheets etc.
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+                <p>
+                   We have been offering our services to customers since 2008. Carrying out big projects for notable companies like MainOne Cable Company, Phase 3, ATC Nigeria etc.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section><!-- End About Section -->
+
+
+{% endblock %}

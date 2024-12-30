@@ -1,0 +1,24 @@
+{% block content %}
+<!--Navigation bar -->
+<nav id="navbar" class="navbar">
+    <ul>
+        <li><a class="nav-link scrollto " href="{% url 'Home' %}">Home</a></li>
+        <li><a class="nav-link scrollto" href="{% url 'About' %}">About</a></li>
+        <li class="dropdown"><a href="{% url 'Services' %}"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+                <li><a href="{% url 'Network Design' %}">Network Design</a></li>
+                <li><a href="{% url 'Fiber Optics Services' %}">Fibre Optics Services</a></li>
+                <li><a href="{% url 'Network Management' %}">Network Management</a></li>
+                <li><a href="{% url 'OSP Insight' %}">OSP Insight</a></li>
+                <li><a href="{% url 'Testing and Terminations' %}">Testing and Terminations</a></li>
+                <li><a href="{% url 'Manhole Placement' %}">Manhole Placement</a></li>
+            </ul>
+        </li>
+        <li><a class="nav-link scrollto" href="{% url 'Team' %}">Team</a></li>
+        <li><a class="nav-link scrollto" href="{% url 'contact' %}">Contact</a></li>
+    </ul>
+    <i class="bi bi-list mobile-nav-toggle"></i>
+</nav><!-- .navbar -->
+
+
+{% endblock %}
